@@ -1,0 +1,185 @@
+body{
+    background-image:url(mm1.jpg);
+    list-style-image:none ;
+    background-position: 0%;
+    overflow-x:hidden;
+    font-family:cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    align-items: center;
+    font-size:20px;
+    text-transform: capitalize;
+    font-optical-sizing:calc(20px);
+}
+
+.bosh{
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+.aa0{
+    width: 50%;
+    height:200px;
+    border: 0;
+    float:left;
+    margin-top:100px ;
+}
+.aa{
+    width: 20%;
+    color: chartreuse;
+    margin-left: 70%;    
+    float: right;
+    
+}
+.rasm0{
+    display: none;
+}
+img{
+    width: 24%;
+    height: 200px;
+    float:left;
+    padding: 5px;
+}
+.aaa:hover{
+    transform:scale(1.025);
+    transition:0.3s;
+    color: coral;
+    font-size:15px ;
+}
+.a0{
+    border: 0;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin-left: 1%;
+    margin-top:auto ;
+}
+.a{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color:yellow;
+    float:left;
+
+}
+.a1{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color:orange;
+    float:left;
+}
+.a2{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color: rgb(194, 220, 26);
+    float:left;
+}
+.a3{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color: yellow;
+    float:left;
+}
+.a4{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color:orange;
+    float:left;
+}
+.a5{
+    margin:4px;
+    width: 32%;
+    height: 200px;
+    border:2px solid white;
+    background-color: rgb(194, 220, 26);
+    float:left;
+}
+
+.bbb{
+    color:rgb(30, 15, 195); 
+    background:yelloow;
+}
+
+.aa1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(44, 255, 75);
+    overflow:hidden;
+}
+.aa1 a{
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    width: 20%;
+    color: black;
+    text-align: center;
+}
+.aa1 a:hover{
+    color: red;
+    background-color: blueviolet;
+}
+.aa1 a.active {
+    background-color: rgb(124, 87, 255);
+    color: rgb(34, 7, 108);
+}
+.aa1 a.active:hover{
+    background:red;
+    color:black;
+
+}
+.aa1 a.create {
+    background-color: rgb(87, 247, 255);
+    color: rgb(234, 22, 36);
+}
+.aa1 a.create:hover{
+    background:rgb(251, 24, 232);
+    color:black;
+
+}
+.aa1 .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .aa1 a:not(:first-child) {display: none;}
+    .aa1 a.icon {
+      float: right;
+      display: block;
+      width: 10%;
+    }
+    .aa1 a.icon:hover{
+        background-color: blue;
+        width: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .aa1.responsive {position: relative;}
+    .aa1.responsive .icon {
+      position: absolute;
+      width: 10%;
+      right: 0;
+      top: 0;
+    }
+    .aa1.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      text-align: center;
+      align-items: center;
+      width: auto;
+      
+      
+    }
+  }
